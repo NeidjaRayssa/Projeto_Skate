@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    background-image:url(img/mina\ com\ elipse.png) ;
+   background-size: 100vw 100vh;
+}
+
+header{
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 120px;
+    height: 125px;
+    padding-bottom: 1.5em;
+    padding-left: 1em;
+}
+
+nav{
+    width: 40vw;
+    color: blue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;   
+    margin-top: 5vw;
+    margin-right: 4vh;
+    letter-spacing: .4rem;
+}
+
+
